@@ -26,16 +26,21 @@
     </plugins>
   </build>
    <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-rel/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-snap/</url>
-        </snapshotRepository>
+       <repository>
+
+	<id>nexus</id>
+	<name>Releases</name>
+	<url>http:/http://vmmain.southindia.cloudapp.azure.com:8081/repository/maven-releases</url>
+
+	</repository>
+	<snapshotRepository>
+	<id>nexus</id>
+	<name>Snapshot</name>
+	<url>http://http://vmmain.southindia.cloudapp.azure.com:8081/repository/maven-snapshots</url>
+
+	</snapshotRepository>
+
+
     </distributionManagement>
   <dependencies>
   	<dependency>
