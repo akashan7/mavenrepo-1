@@ -30,13 +30,13 @@
 
 	<id>nexus</id>
 	<name>Releases</name>
-	<url>http:/http://vmmain.southindia.cloudapp.azure.com:8081/repository/maven-releases/</url>
+	<url>http://vmmain.southindia.cloudapp.azure.com:8081/repository/maven-releases</url>
 
 	</repository>
 	<snapshotRepository>
 	<id>nexus</id>
 	<name>Snapshot</name>
-	<url>http://http://vmmain.southindia.cloudapp.azure.com:8081/repository/maven-snapshots/</url>
+	<url>http://vmmain.southindia.cloudapp.azure.com:8081/repository/maven-snapshots</url>
 
 	</snapshotRepository>
 
