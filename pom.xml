@@ -47,6 +47,13 @@
   		<groupId>javax.servlet</groupId>
   		<artifactId>javax.servlet-api</artifactId>
   		<version>3.0.1</version>
-  	</dependency>
+	  </dependency >
+	  <dependency>
+      <groupId>com.job</groupId>
+      <artifactId>CIjob</artifactId>
+      <version>2.5-SNAPSHOT</version>
+     
+    </dependency>
+	  
   </dependencies>
 </project>
