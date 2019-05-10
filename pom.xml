@@ -36,7 +36,7 @@
 	<snapshotRepository>
 	<id>nexus</id>
 	<name>Snapshot</name>
-	<url>http://vmmain.southindia.cloudapp.azure.com:8081/repository/maven-snapshots</url>
+	<url>http://vmmain.southindia.cloudapp.azure.com:8081/repository/job1release</url>
 
 	</snapshotRepository>
 
