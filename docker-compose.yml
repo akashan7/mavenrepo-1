@@ -2,7 +2,7 @@ version: "3"
 services:
   web:
     # replace username/repo:tag with your name and image details
-    image: afrin123/aashika:tag1
+    image: akashan/docker-registory:tag1
     deploy:
       replicas: 3
       resources:
