@@ -6,7 +6,7 @@
   tasks:
     - name: Remove the old war files
       file:
-        name: "/opt/apache-tomcat-9.0.1/webapps/{{item}}"
+        name: "/opt/apache-tomcat-8.5.40/webapps/{{item}}"
         state: absent
       with_items:
         - student
@@ -14,4 +14,4 @@
     - name: Download war file
       get_url:
         url: "{{URL}}"
-        dest: /opt/apache-tomcat-9.0.1/webapps/student.war
+        dest: /opt/apache-tomcat-8.5.40/webapps/student.war
