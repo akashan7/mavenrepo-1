@@ -19,3 +19,5 @@ spec:
         image: docker.io/akashan/docker-repository:99
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      - name: $KUBERNETES_SECRET_NAME
